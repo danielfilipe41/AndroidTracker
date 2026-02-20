@@ -48,6 +48,9 @@ android {
 }
 
 dependencies {
+    // Transitive dependencies required by the Cardboard SDK
+    implementation("com.google.protobuf:protobuf-javalite:3.19.4")
+    implementation("com.google.android.gms:play-services-vision:20.1.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
