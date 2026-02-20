@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidTracker"
 include(":app")
+include(":cardboard")
  

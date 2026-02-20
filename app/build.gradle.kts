@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.atatab67.androidtracker"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -48,7 +48,7 @@ android {
 }
 
 dependencies {
-    // Transitive dependencies required by the Cardboard SDK
+    implementation(project(":cardboard"))
     implementation("com.google.protobuf:protobuf-javalite:3.19.4")
     implementation("com.google.android.gms:play-services-vision:20.1.3")
     implementation(libs.androidx.core.ktx)
